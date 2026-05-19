@@ -1,0 +1,19 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+metadata:
+  name: my-test
+  title: Test
+  description: TEste
+  annotations:
+    selfservice.devportal.yape.tech/visible: "true"
+    selfservice.devportal.yape.tech/icon: icWorld
+    selfservice.devportal.yape.tech/color: blue
+spec:
+  owner: product_platform
+  type: service
+  parameters:
+    - title: Test
+      properties:
+        name:
+          title: name
+          type: string
