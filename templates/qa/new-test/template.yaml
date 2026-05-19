@@ -1,0 +1,19 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+metadata:
+  name: new-test
+  title: Test
+  description: teste
+  annotations:
+    selfservice.devportal.yape.tech/visible: "true"
+    selfservice.devportal.yape.tech/icon: icCloudCheck
+    selfservice.devportal.yape.tech/color: green
+spec:
+  owner: product_platform
+  type: service
+  parameters:
+    - title: Test
+      properties:
+        name:
+          title: name
+          type: string
