@@ -1,0 +1,1 @@
+# lib-product-platform-templates
