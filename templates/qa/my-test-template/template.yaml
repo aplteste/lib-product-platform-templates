@@ -1,0 +1,17 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+metadata:
+  name: my-test-template
+  title: Test de template
+  description: Vamos la
+  annotations:
+    selfservice.devportal.yape.tech/visible: "true"
+spec:
+  owner: Product Platform
+  type: service
+  parameters:
+    - title: teste bora
+      properties:
+        teste:
+          title: teste
+          type: string
