@@ -1,0 +1,18 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+metadata:
+  name: teste
+  title: teste
+  description: teste
+  annotations:
+    selfservice.devportal.yape.tech/visible: "true"
+spec:
+  owner: Product Platform
+  type: service
+  parameters:
+    - title: Teste
+      properties:
+        name:
+          title: name
+          type: string
+          description: teste
